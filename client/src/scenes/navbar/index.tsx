@@ -5,7 +5,7 @@ import FlexBetween from '@/components/FlexBetween'
 import PixIcon from '@mui/icons-material/Pix';
 
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
     const {palette} = useTheme();
     const [selected, setSelected] = useState("dashboard");
 
