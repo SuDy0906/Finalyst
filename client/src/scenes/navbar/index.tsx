@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 import { Box, Typography, useTheme } from '@mui/material'
 import FlexBetween from '@/components/FlexBetween'
 import PixIcon from '@mui/icons-material/Pix';
-// eslint-disable-next-line
-type Props = {}
-// eslint-disable-next-line
+
+
 const Navbar = (props: Props) => {
     const {palette} = useTheme();
     const [selected, setSelected] = useState("dashboard");
