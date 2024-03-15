@@ -8,5 +8,5 @@ export default defineConfig({
   resolve:{
     alias:[{find: "@", replacement: path.resolve(__dirname, "src")}]
   },
-  build: { chunkSizeWarningLimit: 500, }
+  build: { chunkSizeWarningLimit: 1600, }
 })
